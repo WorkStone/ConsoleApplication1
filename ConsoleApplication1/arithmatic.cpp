@@ -180,7 +180,7 @@ void Arithmatic::printf_a()
 			}
 			else
 			{
-				cout << "答错了" << endl;
+				cout << "答错了，正确答案为：" << Ans[c] << endl;
 			}
 		}
 		cout << "你最终的成绩为：" << grade << endl;
